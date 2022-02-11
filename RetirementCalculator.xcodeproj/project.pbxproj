@@ -11,12 +11,12 @@
 		C287F77F27B6305A006CD6FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C287F77E27B6305A006CD6FB /* AppDelegate.swift */; };
 		C287F78127B6305A006CD6FB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C287F78027B6305A006CD6FB /* SceneDelegate.swift */; };
 		C287F78327B6305A006CD6FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C287F78227B6305A006CD6FB /* ViewController.swift */; };
-		C287F78627B6305A006CD6FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C287F78427B6305A006CD6FB /* Main.storyboard */; };
 		C287F78827B6305B006CD6FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C287F78727B6305B006CD6FB /* Assets.xcassets */; };
 		C287F78B27B6305B006CD6FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C287F78927B6305B006CD6FB /* LaunchScreen.storyboard */; };
 		C287F79627B6305B006CD6FB /* RetirementCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C287F79527B6305B006CD6FB /* RetirementCalculatorTests.swift */; };
 		C287F7A027B6305C006CD6FB /* RetirementCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C287F79F27B6305C006CD6FB /* RetirementCalculatorUITests.swift */; };
 		C287F7A227B6305C006CD6FB /* RetirementCalculatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C287F7A127B6305C006CD6FB /* RetirementCalculatorUITestsLaunchTests.swift */; };
+		C287F7AF27B64823006CD6FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C287F7AE27B64823006CD6FB /* Main.storyboard */; };
 		D451B74C3517AEAE2059560A /* Pods_RetirementCalculator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04AF84E94A002957125EAAE6 /* Pods_RetirementCalculator.framework */; };
 		E3D69499BF64DE518F903FB5 /* Pods_RetirementCalculator_RetirementCalculatorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E5ED90AB5436372F2BECC1E /* Pods_RetirementCalculator_RetirementCalculatorUITests.framework */; };
 /* End PBXBuildFile section */
@@ -52,7 +52,6 @@
 		C287F77E27B6305A006CD6FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C287F78027B6305A006CD6FB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		C287F78227B6305A006CD6FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C287F78527B6305A006CD6FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C287F78727B6305B006CD6FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C287F78A27B6305B006CD6FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C287F78C27B6305B006CD6FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -61,6 +60,7 @@
 		C287F79B27B6305C006CD6FB /* RetirementCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RetirementCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C287F79F27B6305C006CD6FB /* RetirementCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetirementCalculatorUITests.swift; sourceTree = "<group>"; };
 		C287F7A127B6305C006CD6FB /* RetirementCalculatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetirementCalculatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C287F7AE27B64823006CD6FB /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +101,6 @@
 				A5589BC5AE4595580309FA3D /* Pods-RetirementCalculatorTests.debug.xcconfig */,
 				159660C44FC251B7B3FE744E /* Pods-RetirementCalculatorTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -133,7 +132,7 @@
 				C287F77E27B6305A006CD6FB /* AppDelegate.swift */,
 				C287F78027B6305A006CD6FB /* SceneDelegate.swift */,
 				C287F78227B6305A006CD6FB /* ViewController.swift */,
-				C287F78427B6305A006CD6FB /* Main.storyboard */,
+				C287F7AE27B64823006CD6FB /* Main.storyboard */,
 				C287F78727B6305B006CD6FB /* Assets.xcassets */,
 				C287F78927B6305B006CD6FB /* LaunchScreen.storyboard */,
 				C287F78C27B6305B006CD6FB /* Info.plist */,
@@ -275,9 +274,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C287F7AF27B64823006CD6FB /* Main.storyboard in Resources */,
 				C287F78B27B6305B006CD6FB /* LaunchScreen.storyboard in Resources */,
 				C287F78827B6305B006CD6FB /* Assets.xcassets in Resources */,
-				C287F78627B6305A006CD6FB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,14 +409,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C287F78427B6305A006CD6FB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C287F78527B6305A006CD6FB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C287F78927B6305B006CD6FB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -553,6 +544,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = RetirementCalculator/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
